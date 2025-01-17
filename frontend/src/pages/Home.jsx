@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { Button } from "@/components/ui/button";
 import { UserCircle, Search, LogOut } from "lucide-react";
 import axios from 'axios';
+import NoteApp from '@/components/editor';
 const HomePage = () => {
   // // Use navigate hook for redirection
   const navigate = useNavigate();
@@ -147,6 +148,7 @@ useEffect(() => {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8">
+        <NoteApp></NoteApp>
        
       </main>
     </div>

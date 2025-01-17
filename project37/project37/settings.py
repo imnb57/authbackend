@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "authlogic",
+    "notelogic",
     "rest_framework",
     "rest_framework_simplejwt",
     "corsheaders",
@@ -55,7 +56,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5175",  # React app running locally
+    "http://localhost:5174",  # React app running locally
 ]
 
 CORS_ALLOW_CREDENTIALS = True
